@@ -6,7 +6,7 @@ class Bhaskara:
 # Não foi necessario utlizar o metodo construtor __init__
 
     def main(self):
-        Adigitado = float(input("Digite o valor de a: "))
+        Adigitado = float(input("Digite o valor do numero a: "))
         Bdigitado = float(input("Digite o valor de b: "))
         Cdigitado = float(input("Digite o valor de c: "))
         print(self.CalculaRaizes2Grau(Adigitado, Bdigitado, Cdigitado))
